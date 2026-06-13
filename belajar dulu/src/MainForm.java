@@ -1,4 +1,5 @@
 import javax.swing.*;
+import javax.swing.table.DefaultTableModel;
 
 public class MainForm extends JFrame {
     private JPanel main_form;
@@ -13,6 +14,7 @@ public class MainForm extends JFrame {
     private JButton btn_update;
     private JButton btn_delete;
     private JButton btn_read;
+    private DefaultTableModel tableModel;
 
     public MainForm() {
         setTitle("CRUD Mahasiswa");
@@ -21,6 +23,16 @@ public class MainForm extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    private void InitTable() {
+        tableModel = new DefaultTableModel();
+
+        tableModel.addColumn("NIM");
+        tableModel.addColumn("Nama");
+        tableModel.addColumn("Fakultas");
+
+        data_table.setModel(tableModel);
     }
 
     public void main(String[] args) {

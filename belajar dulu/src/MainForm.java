@@ -23,11 +23,14 @@ public class MainForm extends JFrame {
         setLocationRelativeTo(null);
         setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+
+        InitTable();
     }
 
     private void InitTable() {
         tableModel = new DefaultTableModel();
 
+        tableModel.addColumn("No");
         tableModel.addColumn("NIM");
         tableModel.addColumn("Nama");
         tableModel.addColumn("Fakultas");

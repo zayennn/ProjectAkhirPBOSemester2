@@ -21,10 +21,12 @@ public class MainForm extends JFrame {
         setContentPane(main_form);
         setSize(500, 600);
         setLocationRelativeTo(null);
-        setVisible(true);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 
+//        init table
         InitTable();
+
+        setVisible(true);
     }
 
     private void InitTable() {
@@ -38,7 +40,7 @@ public class MainForm extends JFrame {
         data_table.setModel(tableModel);
     }
 
-    public void main(String[] args) {
+    public static void main(String[] args) {
         new MainForm();
     }
 }

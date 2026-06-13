@@ -10,6 +10,7 @@ public class MainForm extends JFrame {
     private JTextField input_fakultas;
     private JTable data_table;
     private JButton btn_add;
+
     private JButton btn_read;
     private JButton btn_hapus;
 

@@ -13,6 +13,7 @@ public class MainForm extends JFrame {
 
     private JButton btn_read;
     private JButton btn_hapus;
+    private JButton btn_lihat;
 
     public MainForm() {
         setTitle("CRUD Mahasiswa");

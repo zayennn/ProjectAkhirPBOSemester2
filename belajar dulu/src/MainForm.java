@@ -1,6 +1,6 @@
 import javax.swing.*;
 
-public class MainForm {
+public class MainForm extends JFrame {
     private JPanel main_form;
     private JLabel nim;
     private JLabel nama;
@@ -12,4 +12,16 @@ public class MainForm {
     private JButton btn_add;
     private JButton btn_read;
     private JButton btn_hapus;
+
+    public MainForm() {
+        setTitle("CRUD Mahasiswa");
+        setContentPane(main_form);
+        setSize(500, 600);
+        setLocationRelativeTo(null);
+        setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+    }
+
+    public void main(String[] args) {
+    }
 }

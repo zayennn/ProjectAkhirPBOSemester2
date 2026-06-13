@@ -11,9 +11,9 @@ public class MainForm extends JFrame {
     private JTable data_table;
     private JButton btn_add;
 
+    private JButton btn_update;
+    private JButton btn_delete;
     private JButton btn_read;
-    private JButton btn_hapus;
-    private JButton btn_lihat;
 
     public MainForm() {
         setTitle("CRUD Mahasiswa");

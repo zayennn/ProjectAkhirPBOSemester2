@@ -77,15 +77,15 @@
           <text value="Tambah"/>
         </properties>
       </component>
-      <component id="f54d5" class="javax.swing.JButton" binding="btn_read">
+      <component id="f54d5" class="javax.swing.JButton" binding="btn_update">
         <constraints>
           <grid row="1" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
         <properties>
-          <text value="Lihat"/>
+          <text value="Update"/>
         </properties>
       </component>
-      <component id="9dda8" class="javax.swing.JButton" binding="btn_hapus">
+      <component id="9dda8" class="javax.swing.JButton" binding="btn_delete">
         <constraints>
           <grid row="2" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>
@@ -93,7 +93,7 @@
           <text value="Hapus"/>
         </properties>
       </component>
-      <component id="f20a0" class="javax.swing.JButton" binding="btn_lihat">
+      <component id="f20a0" class="javax.swing.JButton" binding="btn_read">
         <constraints>
           <grid row="3" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
         </constraints>

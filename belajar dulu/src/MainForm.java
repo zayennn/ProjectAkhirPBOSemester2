@@ -5,12 +5,11 @@ public class MainForm extends JFrame {
     private JLabel nim;
     private JLabel nama;
     private JLabel fakultas;
-    private JTextField input_nim;
-    private JTextField input_nama;
-    private JTextField input_fakultas;
-    private JTable data_table;
+    public JTextField input_nim;
+    public JTextField input_nama;
+    public JTextField input_fakultas;
+    public JTable data_table;
     private JButton btn_add;
-
     private JButton btn_update;
     private JButton btn_delete;
     private JButton btn_read;

@@ -23,5 +23,6 @@ public class MainForm extends JFrame {
     }
 
     public void main(String[] args) {
+        new MainForm();
     }
 }
